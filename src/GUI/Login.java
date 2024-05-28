@@ -112,7 +112,7 @@ public class Login extends javax.swing.JFrame {
                 jTextField3.setText("USPESNO!!!!!");
             }
             else
-                jTextField3.setText("jbg");
+                jTextField3.setText("NEUSPESNO");
         } catch (SQLException ex) {
             Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
         }
